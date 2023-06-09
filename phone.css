@@ -1,0 +1,118 @@
+@media (max-width:767px) {
+    /* navbar starts here  */
+    .navbar ul li{
+        margin-top: 5px;
+    }
+    /* section2 starts here  */
+    #second .cards {
+        width: 100%;
+    }
+
+    #first .left {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: self-start;
+        min-height: 400px;
+        height: max-content;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    #first .container-fluid {
+        min-height: 400px;
+        height: max-content;
+    }
+
+    #first .container-fluid .right {
+        position: absolute;
+    }
+
+    #first svg{
+        top: 65%;
+    }
+
+    #svg2{
+        top: -30px;
+    }
+
+    /* section4 starts here  */
+    #section4 .float-start {
+        width: 65vw;
+    }
+
+    #section4 .float-end {
+        width: 65vw;
+        margin-left: 0px;
+    }
+
+    /* section5 starts here  */
+    .pagination-right {
+        transform: rotate(0deg);
+        right: 44%;
+        top: auto;
+        bottom: -35px;
+        z-index: 1;
+    }
+}
+
+/* hamburger menu  */
+
+@media (max-width:992px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        height: 100px;
+    }
+    .logo img{
+        margin-left: 15px;
+    }
+    #navItems{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        left: -110%;
+        top: 100px;
+        background: #000;
+        width: 100vw;
+        padding: 5vh 0px;
+        z-index: 5000;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #navItems{
+        flex-direction: column;
+    }
+
+    #navItems li {
+        margin: 10px 0;
+    }
+
+    #navItems li a {
+        color: white;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar.active {
+        left: 0%;
+        transition: all .5s ease-in-out;
+    }
+}

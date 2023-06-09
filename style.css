@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Nunito Sans;
+    overflow-x: hidden;
+}
+
+
+
+
+/* navbar  */
+
+
+nav {
+    border-bottom: 1px solid #707070;
+}
+
+.logo {
+    margin: 33px 0;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    font: normal normal 600 19px Segoe UI;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+ul li a i {
+    margin: 0 5px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.bar {
+    display: block;
+    width: 32px;
+    height: 4px;
+    background: black;
+    margin: 4px;
+    transition: all .5s ease-in-out;
+}
+
+
+/* section1 */
+#first{
+    position: relative;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#first .left {
+    margin-left: 70px;
+    position: relative;
+    z-index: 200;
+}
+
+p {
+    line-height: 18px;
+}
+
+.left p {
+    font: normal normal normal 18px Nunito Sans;
+}
+
+.btn {
+    padding: 10px 40px !important;
+    border-radius: 40px;
+}
+
+#first .right svg {
+    position: relative;
+    z-index: -1;
+}
+
+#first .container-fluid {
+    position: relative;
+}
+
+#first svg {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    z-index: 0;
+}
+
+/* section2 starts here  */
+
+
+#second {
+    padding: 40px;
+    position: relative;
+    z-index: 1000;
+    background: #F8FAFC;
+}
+
+#second .cards {
+    background: white;
+    width: 308px;
+    height: 300px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 30px 0;
+}
+
+
+/* section3 starts here */
+
+#section3 {
+    position: relative;
+}
+
+#svg2 {
+    position: absolute;
+    top: -80%;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.cards-2 {
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cards-2 img {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+/* section4 starts here  */
+#section4 {
+    padding: 30px 0;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 img {
+    width: 50px;
+    margin-right: 30px;
+}
+
+#section4 .container {
+    padding: 40px 0;
+}
+
+#section4 .float-start {
+    display: inline-block;
+    width: 600px;
+    line-height: 20px;
+    position: relative;
+    margin-right: 30%;
+}
+
+#section4 .float-end {
+    width: 500px;
+    margin-left: 30%;
+    line-height: 20px;
+    position: relative;
+}
+
+/* section5 starts here  */
+#section5 {
+    display: inline-block;
+    padding: 40px 0;
+    width: 100%;
+}
+
+
+#section5 .container {
+    background: #F8FAFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    /* height: 325px; */
+    position: relative;
+    margin-top: 50px;
+}
+
+#section5 .container h2 {
+    padding: 45px 25px 0 25px;
+}
+
+#section5 .container .cards {
+    width: 285px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 0 20px;
+    position: relative;
+    top: 40px;
+}
+
+.cards .name {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: bold;
+}
+
+.cards .stars i {
+    margin: 0 1px;
+    font-size: 13px;
+    line-height: 13px;
+    color: rgb(255, 208, 0);
+}
+
+.designation {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #615C5C;
+    opacity: 1;
+}
+
+.pagination-right{
+    padding: 15px 17px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 17px #00000029;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -25px;
+    top: 70%;
+}
+
+
+/* section6 starts here */
+
+#section6{
+    margin: 70px 0 50px 0;
+}
+
+/* footer starts here  */
+footer{
+    background: #000;
+    height: 350px;
+    position: relative;
+}
+
+
+.copyright{
+    width: 100vw;
+    position: absolute;
+    bottom: 30px;
+}
